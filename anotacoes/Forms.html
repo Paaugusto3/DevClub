@@ -1,0 +1,33 @@
+<!--
+    Forms
+    -Capturar dados de Entrada
+    - input = entrada
+
+    Action - Define para qual url será enviado os dados, vazio envia para a mesma url Method
+    - GET
+     - POST
+-->
+
+<form action="" method="get">
+    <h1> Digite Seu Endereço</h1>
+    <label>
+        Rua:
+        <input type="text" name="Rua" autocomplete="street-address" />
+    </label>
+
+    <label>
+        Número
+        <input type="number" name="Numero">
+    </label>
+
+    <label>
+        Email
+        <input type="text" name="Email">
+    </label>
+    Foto
+    <input type="file" name="Arquivo">
+    <br>
+
+    <button type="reset">Reset</button>
+    <button type="submit">Enviar Dados</button>
+</form>
