@@ -3,6 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DevClub - ConvertMoney </title>
 </head>
@@ -15,7 +16,7 @@
 <body>
 
     
-    <img class="logo" src="./logo.gif" alt="Logo-devClub">
+    <img class="logo" src="./assents/logo.gif" alt="Logo-devClub">
 
     <main>
         <label>
@@ -28,29 +29,29 @@
 
                 <label>
                     Converte <b>para</b>
-                    <select>
-                        <option>US$ Dolar Americano</option>
-                        <option>€ Euro</option>
+                    <select class="currency-select">
+                        <option value="dolar">US$ Dolar Americano</option>
+                        <option value="euro">€ Euro</option>
                     </select>
 
                     <label>
                         <label>
-                            <input class="input-currency" placeholder="R$ 10.000,00">
+                            <input class="input-currency" placeholder="Digite o Valor a ser convertido">
                         </label>
 
                         <button class="convert-button">Converter</button>
                         <section>
                             <div class="currency-box">
-                                <img src="./brasil 2.png" alt="logo-moeda-a-converter">
+                                <img src="./assents/brasil 2.png" alt="logo-moeda-a-converter">
                                 <p class="currency">Real</p>
-                                <p>0,00</p>
+                                <p class="currency-value-to-convert">0,00</p>
                             </div class="currency-box">
-                            <img class= "vector-img" src="./Vector.png" alt="Seta">
+                            <img class= "vector-img" src="./assents/Vector.png" alt="Seta">
                             
                             <div>
-                                <img src="./USA.png" alt="logo-moeda-Convertida">
-                                <p class="currency-value">Dolar</p>
-                                <p>U$ 0,00</p>
+                                <img class="currency-img" src="./assents/USA.png" alt="logo-moeda-Convertida">
+                                <p class="currency-value" id="currency-name">Dolar</p>
+                                <p class="currency-value"> </p>
 
                             </div>
                         </section>

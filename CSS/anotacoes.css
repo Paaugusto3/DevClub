@@ -1,0 +1,38 @@
+*{
+    /*
+    seleciona tudo
+    */
+}
+
+ /*
+classe - . nome do elemento
+id - # nome do elemento
+
+*/
+
+/*
+Unidades de medidas 
+
+-->
+ABSOLUTAS
+px(Pixels)
+in(inches/polegadas)
+cm/mm (centimetro/ milimetro)
+
+--> RELATIVAS
+% calcula o tamanho relativo ao elemento pai
+vw (viwe width ) 1vw é 1% da largura da janela do navegador
+vh (view height) 1vw é 1% da altura da janela do navegador
+em é uma unidade relativa ao elemento pai
+rem é uma unidade relativa ao elemento raiz
+*/
+
+/*
+position: static (padrao) - não aceita valores de top,botton,right e left
+position: fixed - fixa o elemento na tela
+position: sticky: age como um adesivo, fixa o elemento só onde eu determinar
+position: relative - posicao relativa a posicao inicial dele 
+position absolute: - posicao absoluta (fixa) a algum elemento ou a pagina
+SE não tiver pai / pai for static - posiciona referente a pagina
+se o pai não for static se posiciona referente ao pai 
+*/

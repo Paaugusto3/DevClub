@@ -1,0 +1,220 @@
+* {
+    padding: 0;
+    margin: 0px;
+    box-sizing: border-box;
+
+}
+
+.div-pai {
+    width: 100vw;
+    height: 100vh;
+    background: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-width: 0px 0px 0px 0px;
+    display: inline-flex;
+    border-style: solid;
+    position: sticky;
+
+
+
+
+
+
+}
+
+.front-app {
+
+    width: Hug (201px);
+    height: Hug (69px);
+    top: 371px;
+    left: 86px;
+    gap: 4px;
+
+    width: 153px;
+    height: 69px;
+    border: 1px;
+    color: #FFFFFF;
+
+
+
+    width: 375px;
+    height: 812px;
+    top: -407px;
+    left: -403px;
+    padding: 371px 61px 345px 61px;
+    border-radius: 32px;
+    border: 5px;
+    gap: 10px;
+
+
+
+
+    background: linear-gradient(103.76deg, #6537CD 0%, #A76BE7 100%),
+        linear-gradient(0deg, #FFFFFF, #FFFFFF);
+    ;
+
+}
+
+p {
+
+    font-family: 'Oswald', sans-serif;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 500;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+
+    width: 253px;
+    height: 19px;
+    top: 448px;
+    left: 60px;
+}
+
+.back-app {
+    width: Hug (201px);
+    height: Hug (69px);
+    top: 371px;
+    left: 86px;
+    gap: 4px;
+
+    width: 153px;
+    height: 69px;
+    border: 1px;
+    color: rgba(252, 251, 254, 1);
+
+    width: 375px;
+    height: 812px;
+    top: -407px;
+    left: -403px;
+    padding: 371px 61px 345px 61px;
+    border-radius: 32px;
+    border: 5px;
+    gap: 10px;
+
+    background: rgba(252, 251, 254, 1)
+}
+
+.login{
+width: 79px;
+height: 29px;
+top: 213px;
+left: 24px;
+color: gray;
+font-family: 'Oswald', sans-serif;
+font-size: 24px;
+font-weight: 700;
+line-height: 29px;
+letter-spacing: 0em;
+text-align: left;
+}
+
+.input-1{
+width: Fixed (327px);
+height: Hug (51px);
+top: 274px;
+left: 24px;
+padding: 16px 50px 8px 16px;
+border-radius: 8px;
+gap: 10px;
+
+
+}
+
+.input-2{
+    width: Fixed (327px);
+    height: Hug (51px);
+    top: 345px;
+    left: 24px;
+    padding: 16px 50px 8px 16px;
+    border-radius: 8px;
+    gap: 10px;
+    
+
+    
+}
+
+.input-3{
+width: Fixed (327px);
+height: Hug (51px);
+top: 416px;
+left: 24px;
+padding: 16px 50px 8px 16px;
+border-radius: 8px;
+gap: 10px;
+
+    
+}
+
+.input-4{
+width: Fixed (327px);
+height: Hug (51px);
+top: 487px;
+left: 24px;
+padding: 16px 50px 8px 16px;
+border-radius: 8px;
+gap: 10px;
+
+    
+}
+
+.input-5{
+    
+}
+
+.check-box{
+font-family: 'Oswald', sans-serif;
+font-size: 10px;
+font-weight: 500;
+line-height: 12px;
+letter-spacing: 0em;
+text-align: left;
+
+font-family: 'Oswald', sans-serif;
+font-size: 10px;
+font-weight: 400;
+line-height: 12px;
+letter-spacing: 0em;
+text-align: left;
+color: #A76BE7;
+
+}
+
+.img-top {
+    width: Hug (161.28px);
+    height: Hug (57px);
+    top: 10px;
+    left: 103px;
+    padding: 6px 15px 6px 15px;
+    border-radius: 24px;
+    gap: 2.61px;
+    background: rgba(252, 251, 254, 1);
+    border: none;
+    
+}
+
+.login-2{
+width: Hug (239px);
+height: Hug (65px);
+top: 644px;
+left: 68px;
+padding: 18px 80px 18px 80px;
+border-radius: 24px;
+gap: 10px;
+text-align: center;
+font-family: 'Oswald', sans-serif;
+font-size: 24px;
+font-weight: 700;
+line-height: 29px;
+letter-spacing: 0em;
+text-align: left;
+background: rgba(255, 255, 255, 1);
+
+
+background: linear-gradient(103.76deg, #6537CD 0%, #A76BE7 100%);
+
+
+}

@@ -1,0 +1,27 @@
+#titulo{
+    color: black;
+    font-size: 55px;
+}
+
+#paragrafo {
+color: blue;
+font-size:  20px;
+}
+
+#Botao{
+    color: blanchedalmond;
+    font-size: 15px;
+    border-color: black;
+    background: black;
+}
+
+
+/*
+RGB
+RED
+GRREN
+BLUE
+ DECIMAL => 0,1,2,3,4,5,6,7,8,9
+HEXADECIMAL => 0,1,2,3,4,5,6,7,8,9,A,B,C,D,E,F
+
+*/
