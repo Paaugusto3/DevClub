@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		},
+		{
+			"path": "../../PROJETO - TD"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "DevClub"
+	}
+}
